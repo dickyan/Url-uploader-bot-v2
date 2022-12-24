@@ -46,11 +46,11 @@ async def start(bot, update):
             [
                 [
                     InlineKeyboardButton(
-                        "knox bot universe", url="https://t.me/knoxbotsl"
+                        "knox bot universe", url="https://t.me/knoxbots"
                     ),
-                    InlineKeyboardButton("Channel 👨🏻‍💻", url="https://t.me/knoxbots"),
+                    InlineKeyboardButton("Channel 🪐", url="https://t.me/knoxbots"),
                 ],
-                [InlineKeyboardButton("Admin👨‍⚖️", url="https://t.me/ace_knox")],
+                [InlineKeyboardButton("Admin🦹", url="https://t.me/ace_knox")],
             ]
         ),
         reply_to_message_id=update.message_id
