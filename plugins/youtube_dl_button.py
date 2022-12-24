@@ -127,7 +127,7 @@ async def youtube_dl_call_back(bot, update):
     e_response = stderr.decode().strip()
     t_response = stdout.decode().strip()
 
-    ad_string_to_replace = "please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; see  https://yt-dl.org/update  on how to update. Be sure to call youtube-dl with the --verbose flag and include its complete output."
+    ad_string_to_replace = "please report this issue on group 😴."
     if e_response and ad_string_to_replace in e_response:
         error_message = e_response.replace(ad_string_to_replace, "")
         await bot.edit_message_text(
@@ -213,7 +213,7 @@ async def youtube_dl_call_back(bot, update):
                 asyncio.create_task(clendir(download_directory))
                 asyncio.create_task(clendir(thumbnail))
                 await bot.edit_message_text(
-                text="Uploaded sucessfully ✓\n\nJOIN : @KeimaSenpai_oficial",
+                text="Uploaded sucessfully 🔮\n\nJOIN : @knoxbots",
                 chat_id=update.message.chat.id,
                 message_id=update.message.message_id,
                 disable_web_page_preview=True)
