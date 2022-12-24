@@ -18,7 +18,7 @@ URL | filename | username | password"""
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
-    NO_VOID_FORMAT_FOUND = "ERROR...\n</b> : {}"😴
+    NO_VOID_FORMAT_FOUND = "ERROR...\n</b> : {}"
     HELP_USER = """How to Use Me? Follow These steps!
     
 1. Send url (example.domain/File.mp4 | New Filename.mp4).
@@ -38,4 +38,4 @@ You can use /rename command after receiving file to rename it with custom thumbn
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
 
-    ERROR_YTDLP = "please report this issue on group 😴."
+    ERROR_YTDLP = "please report this issue on group ."
